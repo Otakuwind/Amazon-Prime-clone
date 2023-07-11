@@ -91,7 +91,44 @@ background-color: black;
 .row {  
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
+
+.my-section {
+  background-image: url('images/welcome\ to\ prime.jpg');
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 250%;
+height: 100vh;
+  background-repeat: no-repeat;
+}
+.my-section img {
+  display: block;
+  width: 250%;
+  height: 90%;
+   transform: scaleX(2);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.text-overlay h2,
+.text-overlay p {
+  margin: 0;
+  padding: 0;
+}
+
 
 /* Create two unequal columns that sits next to each other */
 /* Sidebar/left column */
@@ -110,9 +147,8 @@ background-color: black;
 
 /* Fake image, just for this example */
 .fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+ 
+  
 }
 
 
