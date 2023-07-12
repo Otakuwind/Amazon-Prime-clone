@@ -153,6 +153,7 @@ background-color: black;
   float: left;
   width: 50%;
   color: white;
+  
   padding: 10px;
   height: 150%; /* Should be removed. Only for demonstration */
 }
@@ -170,6 +171,10 @@ background-color: black;
 }
 
 
+.welcome-p{
+  margin-bottom: 40px;
+}
+
 /* Create three equal columns that floats next to each other */
 .c {
   float: left;
@@ -179,6 +184,9 @@ background-color: black;
   height: 300px; /* Should be removed. Only for demonstration */
 }
 
+.c >h2{
+    color: black;
+}
 /* Clear floats after the columns */
 .r:after {
   content: "";
@@ -199,6 +207,11 @@ background-color: black;
     display: flex;
     flex-direction: column-reverse;
   }
+
+  .welcome-p{
+  margin-bottom: 40px;
+}
+
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -214,4 +227,100 @@ background-color: black;
     float: none;
     width:100%;
   }
+}
+
+
+h2{
+    text-align: center;
+font-size: 32px;
+max-width: 100vw;
+margin: 0 auto;
+font-weight: 700;
+color: #fff;
+line-height: 1.2 !important;
+padding: 0;
+text-rendering: optimizeLegibility;
+font-family: "Amazon Ember Light" !important;
+}
+
+p{   text-align: center;
+
+font-size: 17px;
+padding: 0;
+margin: 0;
+line-height: 1.3;
+font-family: "Amazon Ember Light" !important;
+text-rendering: optimizeLegibility;
+}
+
+
+/*buttons*/
+
+.button-wrapper {
+  margin: 0 auto;
+  max-width: 280px;
+text-align: center;
+line-height: 1.3;
+color: #fff;
+font-family: "Amazon Ember Light" !important;
+font-size: 15px;
+text-rendering: optimizeLegibility;
+
+}
+
+
+
+.dv-copy-button {
+  background-color: #0F79AF !important;
+  background-image: linear-gradient(to top,#0F79AF,#0F79AF);
+  color: #fff;
+  max-width: 450px;
+  margin: auto;
+  width: 100%;
+text-align: center;
+  display: table;
+  padding: 16px 18px 16px;
+  border-radius: 2px;
+  text-decoration: none;
+  position: relative;
+  font-size: 17px;
+  min-width: 280px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-rendering: optimizeLegibility;
+}
+.dv-button-divider.divider-left {
+float: left;
+margin: 11px auto 25px;
+width: 44%;
+border-bottom: 1px solid #fff;
+line-height: .1em;
+text-align: center;
+font-size: 15px;
+text-rendering: optimizeLegibility;
+font-family: "Amazon Ember Light" !important;
+
+}
+p.dv-button-divider-copy {
+  float: left;
+  width: 12%;
+margin: 0;
+text-align: center;
+line-height: 1.3;
+
+}
+
+.dv-button-divider.divider-right {
+float: right;
+margin: 11px auto 25px;
+width: 44%;
+border-bottom: 1px solid #fff;
+line-height: .1em;
+}
+
+span.dv-button-divider {
+  margin: 11px auto 25px;
+ 
+  border-bottom: 1px solid #fff;
+  line-height: .1em;
 }
