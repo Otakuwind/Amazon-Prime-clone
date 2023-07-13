@@ -281,6 +281,7 @@ text-align: center;
 font-size: small;
 display: flex;
 flex-direction: column-reverse;
+margin-bottom: 50px;
 }
 
 .col{
@@ -448,4 +449,13 @@ span.dv-button-divider {
  
   border-bottom: 1px solid #fff;
   line-height: .1em;
+}
+
+.footer{
+  background-color: rgb(34, 34, 34);
+color: rgb(148, 148, 148);
+font-family: "Amazon Ember";
+padding: 24px;
+text-align: center;
+line-height: 20px;
 }
