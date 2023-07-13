@@ -459,3 +459,14 @@ padding: 24px;
 text-align: center;
 line-height: 20px;
 }
+
+.footer-links{
+  margin: 0;
+padding: 0;
+font-size: 15px;
+line-height: 19px;
+color: #949494;
+font-family: "Amazon Ember";
+text-align: center;
+text-rendering: optimizeLegibility;
+}
