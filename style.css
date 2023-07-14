@@ -226,13 +226,14 @@ text-rendering: optimizeLegibility;
     color: black;
     margin-bottom: 4px;
 }
-.c >p{
-    color: black;
+
+
+.white{
+ color: black;
    font-size: 15px;
    font-weight: 400;
-   text-align: center;
+   display: table;
 }
-
 
 .wai{
 vertical-align: top;
