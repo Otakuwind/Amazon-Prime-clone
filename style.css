@@ -259,7 +259,7 @@ border: 0;
   border: none;
   width: 100%;
 text-align: center;
-  display: table;
+ align-items: flex-start;
   padding: 16px 18px 16px;
   border-radius: 2px;
   text-decoration: none;
@@ -291,9 +291,22 @@ margin-bottom: 50px;
 }
 
 
+p{
+  margin-bottom: 40px;
+color: white;
+font-size: 13px;
+text-align: center;
+  
+}
+
+.h-title{
+  text-align: center;
+}
 .welcome-p{
   margin-bottom: 40px;
 color: white;
+font-size: 15px;
+text-align: center;
   
 }
 .welcome{
@@ -332,6 +345,11 @@ display: flex;
 .r{
   margin-top: 50px;
 }
+.great-ent{
+display: table;
+
+}
+
 
 }
 
