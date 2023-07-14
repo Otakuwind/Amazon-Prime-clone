@@ -470,3 +470,14 @@ font-family: "Amazon Ember";
 text-align: center;
 text-rendering: optimizeLegibility;
 }
+
+.Footer__copyright{
+  color: #949494;
+  font-family: "Amazon Ember";
+padding: 24px;
+text-align: center;
+font-size: 15px;
+text-rendering: optimizeLegibility;
+line-height: 20px;
+margin-top: 0px;
+}
