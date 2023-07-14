@@ -74,7 +74,7 @@ background-color: black;
   padding: 12px 16px;
   width: 20%;
   text-decoration: none;
-  list-style:none;
+  list-style:decimal;
 flex-direction: column;
 z-index: 1;
  position: relative;
